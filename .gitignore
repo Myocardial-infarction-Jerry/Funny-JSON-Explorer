@@ -1,0 +1,21 @@
+# Ignore build directory
+build/
+
+# Ignore bin directory
+bin/
+
+# Ignore all .o and .a files
+*.o
+*.a
+
+# Ignore all .so files
+*.so
+
+# Ignore other generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+_deps/
+Makefile
+*.cmake
+install_manifest.txt
