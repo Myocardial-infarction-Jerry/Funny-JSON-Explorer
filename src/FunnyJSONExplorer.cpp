@@ -12,6 +12,11 @@
 #include <unistd.h>    // UNIX-like systems for STDOUT_FILENO
 #endif
 
+/**
+ * @brief Get the width of the terminal window.
+ *
+ * @return int Width of the terminal window.
+ */
 int getWindowWidth() {
     int width = 0;
 
@@ -83,8 +88,6 @@ std::vector<std::string> FunnyJSONExplorer::getIconList() {
         "poker"
     };
 }
-
-
 
 JSONIcon_Null::JSONIcon_Null() { icon = ""; }
 JSONIcon_Poker::JSONIcon_Poker() { icon = "♠️"; }

@@ -8,6 +8,13 @@
 using ArgumentParser = argparse::ArgumentParser;
 using json = nlohmann::json;
 
+/**
+ * @brief Main function to explore JSON files.
+ *
+ * @param argc Argument count.
+ * @param argv Argument vector.
+ * @return int Exit status.
+ */
 int main(int argc, char const *argv[]) {
     ArgumentParser parser("Funny JSON Explorer");
 
