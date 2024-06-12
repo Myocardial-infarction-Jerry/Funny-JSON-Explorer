@@ -1,0 +1,28 @@
+{
+    "object": {
+        "key1": "value1",
+        "key2": 123,
+        "nested_object": {
+            "nested_key1": false,
+            "nested_key2": null
+        }
+    },
+    "array": [
+        "item1",
+        10,
+        true,
+        null,
+        {
+            "sub_object_key": "sub_object_value"
+        },
+        [
+            1,
+            2,
+            3
+        ]
+    ],
+    "string": "Hello, JSON!",
+    "number": 2024,
+    "boolean": true,
+    "null_value": null
+}
