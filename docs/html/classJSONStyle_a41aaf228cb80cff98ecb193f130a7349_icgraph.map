@@ -1,0 +1,5 @@
+<map id="JSONStyle::explore" name="JSONStyle::explore">
+<area shape="rect" id="Node000001" title="Explore the JSON data and return a formatted string representation." alt="" coords="203,13,340,39"/>
+<area shape="rect" id="Node000002" href="$classFunnyJSONExplorer.html#a68043dde6f9078e7376bb8aca970a7ec" title="Get the exploration result as a string." alt="" coords="5,5,155,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,28,155,28,155,23,187,23"/>
+</map>
