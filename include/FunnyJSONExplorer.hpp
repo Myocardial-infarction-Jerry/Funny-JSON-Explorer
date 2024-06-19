@@ -1,42 +1,8 @@
 #ifndef FJE_HPP
 #define FJE_HPP
 
-#include <nlohmann/json.hpp>
-
-/**
- * @brief Class representing an icon for JSON elements.
- */
-class JSONIcon;
-
-/**
- * @brief Abstract base class for JSON styles.
- */
-class JSONStyle {
-public:
-    /**
-     * @brief Explore the JSON data and return a formatted string representation.
-     * 
-     * @param cur Current JSON object being explored.
-     * @param depth Current depth in the JSON structure.
-     * @param prev Previous keys visited.
-     * @param icon Icon used for representation.
-     * @return std::string Formatted string representation of JSON.
-     */
-    virtual std::string explore(
-        const nlohmann::json &cur,
-        int depth,
-        std::vector<std::string> prev,
-        JSONIcon *icon
-    ) const = 0;
-};
-
-/**
- * @brief Class representing an icon for JSON elements.
- */
-class JSONIcon {
-public:
-    std::string icon;
-};
+#include "FunnyJSONIcon.hpp"
+#include "FunnyJSONStyle.hpp"
 
 /**
  * @brief Main class for exploring JSON data.
@@ -95,46 +61,6 @@ private:
     const nlohmann::json &data;
     JSONStyle *style;
     JSONIcon *icon;
-};
-
-/**
- * @brief JSON style using tree structure.
- */
-class JSONStyle_Tree : public JSONStyle {
-    std::string explore(
-        const nlohmann::json &cur,
-        int depth,
-        std::vector<std::string> prev,
-        JSONIcon *icon
-    ) const;
-};
-
-/**
- * @brief JSON style using rectangular structure.
- */
-class JSONStyle_Rect : public JSONStyle {
-    std::string explore(
-        const nlohmann::json &cur,
-        int depth,
-        std::vector<std::string> prev,
-        JSONIcon *icon
-    ) const;
-};
-
-/**
- * @brief Null icon for JSON elements.
- */
-class JSONIcon_Null : public JSONIcon {
-public:
-    JSONIcon_Null();
-};
-
-/**
- * @brief Poker icon for JSON elements.
- */
-class JSONIcon_Poker : public JSONIcon {
-public:
-    JSONIcon_Poker();
 };
 
 #endif

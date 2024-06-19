@@ -31,6 +31,9 @@ FetchContent_MakeAvailable(utf8proc)
 # Include directories
 include_directories(include)
 
+# Define source
+file(GLOB SOURCE_FILES "src/*.cpp")
+
 # Define the executable and link libraries
-add_executable(fje src/main.cpp src/FunnyJSONExplorer.cpp)
+add_executable(fje ${SOURCE_FILES})
 target_link_libraries(fje PRIVATE nlohmann_json::nlohmann_json argparse utf8proc)
