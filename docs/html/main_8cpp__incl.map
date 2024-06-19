@@ -6,9 +6,16 @@
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="243,34,167,74,165,69,241,29"/>
 <area shape="rect" id="Node000004" title=" " alt="" coords="190,79,340,105"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="267,31,267,63,262,63,262,31"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="372,153,502,178"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="286,29,353,77,418,139,414,143,350,81,283,34"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="342,226,473,252"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="292,29,324,49,353,77,374,111,389,147,406,210,401,212,384,148,369,113,349,81,320,53,289,34"/>
 <area shape="rect" id="Node000006" href="$FunnyJSONExplorer_8hpp.html" title=" " alt="" coords="414,79,579,105"/>
 <area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="305,29,444,71,442,77,303,34"/>
-<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="489,107,459,142,454,139,485,103"/>
+<area shape="rect" id="Node000007" href="$FunnyJSONIcon_8hpp.html" title=" " alt="" coords="513,226,656,252"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="524,103,553,123,578,151,588,181,590,211,584,211,582,182,573,154,549,127,521,107"/>
+<area shape="rect" id="Node000009" href="$FunnyJSONStyle_8hpp.html" title=" " alt="" coords="415,153,563,178"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="498,105,494,138,489,137,493,105"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="558,300,611,326"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="587,252,587,284,582,284,582,252"/>
+<area shape="poly" id="edge10_Node000009_Node000005" title=" " alt="" coords="477,181,434,218,431,214,473,177"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="507,177,558,215,555,219,503,181"/>
 </map>
